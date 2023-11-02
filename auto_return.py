@@ -2,7 +2,7 @@ import inspect
 import re
 
 
-RETURN_REGEX = re.compile('\s*return[[(\'" ]')
+RETURN_REGEX = re.compile('\s*return[[({\'" ]')
 LEFT_SPACES_REGEX = re.compile('\s*.')
 
 
